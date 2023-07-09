@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Bacasime-Antique;
+     src: url("/rsschool-cv/assets/fonts/BacasimeAntique-Regular.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: olive;
+        color: olive;
+    }
+html {
+    scroll-behavior: smooth; 
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+ }
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.section {
+    width: 50%;
+  }
+.section-item {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+  }
+img {
+    width: 730px;
+    position: absolute;
+    right: 10px;
+}
+footer {
+    background-color: olive;
+}
+.rsschool {
+    width: 300px;
+}
