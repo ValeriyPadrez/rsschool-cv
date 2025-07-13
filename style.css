@@ -78,4 +78,14 @@ body {
 }
 .myphoto {
     width: 30%;
+    position: absolute;
+    right: 300px;
+}
+.footerrsschool {
+  position: relative;
+  left: 280px;
+}
+.footergh {
+  position: absolute;
+  right: 290px;
 }
